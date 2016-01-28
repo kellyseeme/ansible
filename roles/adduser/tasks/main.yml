@@ -1,0 +1,3 @@
+---
+- name: add the user
+  user: name={{user}} state=present group=kelly groups=kelly
