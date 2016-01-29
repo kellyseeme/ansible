@@ -1,8 +1,0 @@
----
-- hosts: ansibleservers
-  roles:
-      - adduser
-      - changepassword
-#       - deleteuser
-#        - addgroup
-#        - deletegroup

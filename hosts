@@ -1,8 +1,0 @@
-[ansibleservers]
-192.168.1.163
-192.168.1.164
-
-[ansibleserver1]
-192.168.1.163
-[ansibleserver2]
-192.168.1.164

@@ -1,5 +1,0 @@
----
-#- hosts: ansibleservers
-#  use the variables kel to change the user root's passwrod
-- name: change the user {{user}} password
-  shell: 'echo "{{password}}"|passwd --stdin {{user}} > /dev/null 2>&1'

@@ -1,3 +1,0 @@
----
-- name: delete a group
-  group: name=kelly state=absent

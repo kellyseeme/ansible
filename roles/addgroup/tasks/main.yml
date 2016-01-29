@@ -1,3 +1,0 @@
----
-- name: add a group
-  group: name=kelly state=present
