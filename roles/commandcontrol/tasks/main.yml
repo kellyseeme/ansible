@@ -1,0 +1,5 @@
+---
+- name: reboot the server
+  command: /sbin/reboot
+- name: check the status
+  service: name=network state=restarted

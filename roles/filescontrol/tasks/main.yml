@@ -1,0 +1,3 @@
+---
+- name: touch a file
+  file: path=/root/kel.file state=touch mode=0777 owner=root group=root

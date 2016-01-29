@@ -1,0 +1,5 @@
+---
+- hosts: ansibleservers
+  roles:
+                - changepassword
+                - adduser

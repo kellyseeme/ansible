@@ -1,0 +1,5 @@
+---
+#this task is use to control the service status
+# enabled is yes,so after the server reboot ,its will be start
+- name: restart the service
+  service: name=network state=restarted enabled=yes args=eth0

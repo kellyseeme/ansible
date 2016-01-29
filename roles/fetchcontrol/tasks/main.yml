@@ -1,0 +1,3 @@
+---
+- name: fetch some files
+  fetch: src=/root/kel.log dest=/tmp/

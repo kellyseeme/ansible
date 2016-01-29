@@ -1,0 +1,3 @@
+---
+- name: add a group
+  group: name={{groupname}} state=present

@@ -1,0 +1,3 @@
+---
+- include: staging.yml
+- include: production.yml

@@ -1,0 +1,13 @@
+---
+- hosts: ansibleservers
+  tasks:
+  roles:
+#      - adduser
+#      - changepassword
+#       - deleteuser
+#        - addgroup
+#       - deletegroup
+#        - servicecontrol       
+#        - commandcontrol
+#        - filescontrol
+        - fetchcontrol        
