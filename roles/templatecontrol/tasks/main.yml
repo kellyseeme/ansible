@@ -1,0 +1,6 @@
+---
+- name: use template to set some configuretion file
+  template: src=my.conf.j2 dest=/root/my.conf
+
+- name: check the configuretion file is exist
+  shell: /bin/ls /root/my.conf

@@ -10,4 +10,5 @@
 #        - servicecontrol       
 #        - commandcontrol
 #        - filescontrol
-        - fetchcontrol        
+#        - fetchcontrol        
+        - templatecontrol

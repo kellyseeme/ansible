@@ -1,3 +1,3 @@
 ---
 - name: this is trancefer this file to the remote machine
-  copy: src=/etc/ansible/kel/roles/filescontrol/files/kel.log dest=/root/kel.log mode=777 backup=yes
+  template: src=my.conf.j2 dest=/root/my.cnf 
